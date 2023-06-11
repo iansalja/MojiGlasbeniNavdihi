@@ -4,7 +4,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
 }
-
 h1 {
   color: #ed2424;
   text-align: center;
@@ -15,7 +14,6 @@ h1 {
   margin-bottom: 0;
   border-bottom: 1px solid #ed2424;
 }
-
 h2 {
   color: #ed2424;
   text-align: center;
@@ -26,7 +24,6 @@ h2 {
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
 .image-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -35,7 +32,6 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
 .image-gallery img {
   width: 100%;
   height: auto;
@@ -44,11 +40,9 @@ h2 {
   transition: transform 0.3s ease-in-out;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-
 .image-gallery img:hover {
   transform: scale(1.05);
 }
-
 nav {
   background-color: #ed2424;
   padding: 10px;
@@ -60,7 +54,6 @@ nav {
   z-index: 999;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-
 nav .navbar-brand {
   color: #fff;
   font-size: 2.2rem;
@@ -70,12 +63,10 @@ nav .navbar-brand {
   display: inline-block;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
 nav .navbar-brand:hover,
 nav .navbar-brand:focus {
   animation: scaleAnimation 0.5s ease-in-out forwards;
 }
-
 @keyframes scaleAnimation {
   0% {
     transform: scale(1);
@@ -87,11 +78,9 @@ nav .navbar-brand:focus {
     transform: scale(1);
   }
 }
-
 nav .navbar-toggler-icon {
   filter: invert(1);
 }
-
 nav .nav-link {
   color: #fff;
   font-size: 1.2rem;
@@ -102,11 +91,9 @@ nav .nav-link {
   margin: 0 10px;
   text-decoration: none;
 }
-
 nav .nav-link:hover {
   color: #ffdbdb;
 }
-
 footer {
   background-color: #ed2424;
   color: #fff;
@@ -116,33 +103,26 @@ footer {
   font-size: 1.2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-
-/* Custom styles */
-
 #about {
   padding: 50px 0;
   background-color: #1b1b1b;
   box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.3);
 }
-
 #music {
   padding: 50px 0;
   background-color: #1b1b1b;
   box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.3);
 }
-
 #gallery {
   padding: 50px 0;
   background-color: #1b1b1b;
   box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.3);
 }
-
 #contact {
   padding: 50px 0;
   background-color: #1b1b1b;
   box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.3);
 }
-
 form {
   max-width: 500px;
   margin: 0 auto;
@@ -151,7 +131,6 @@ form {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-
 form label {
   font-size: 1.2rem;
   font-weight: bold;
@@ -160,7 +139,6 @@ form label {
   margin-bottom: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
 form a,
 form textarea {
   width: 100%;
@@ -172,25 +150,19 @@ form textarea {
   color: #fff;
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-
 form textarea {
   resize: none;
 }
-
-
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
-
 .section-title {
   text-align: center;
   margin-bottom: 50px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
 .section-title h2 {
   font-size: 3.5rem;
   color: #ed2424;
@@ -198,45 +170,36 @@ form textarea {
   letter-spacing: 4px;
   margin-bottom: 20px;
 }
-
 .section-title p {
   font-size: 1.5rem;
   color: #fff;
   margin-top: 10px;
 }
-
 @media (max-width: 767px) {
   .container {
     padding: 0 10px;
   }
-  
   h1 {
     font-size: 2.5rem;
     padding: 30px 0;
   }
-
   h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
   }
-
   .section-title h2 {
     font-size: 2.8rem;
   }
-
   .section-title p {
     font-size: 1.2rem;
   }
-
   nav .navbar-brand {
     font-size: 1.8rem;
   }
-
   nav .nav-link {
     font-size: 1rem;
     margin: 0 5px;
   }
-
   .center {
     text-align: center;
   }
